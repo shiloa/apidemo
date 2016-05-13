@@ -16,7 +16,7 @@ import (
 )
 
 func initDB() gorm.DB {
-	db, err := gorm.Open("mysql", "quixey:1234@/devportal?charset=utf8&parseTime=True&loc=Local")
+	db, err := gorm.Open("mysql", "shiloa:passW0rd@/appdb?charset=utf8&parseTime=True&loc=Local")
 
 	if err != nil {
 		println("Error:", err)
